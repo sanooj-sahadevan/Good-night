@@ -1,0 +1,73 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar .nav-link{
+    font-weight: 400;
+    color: black;
+}
+
+.navbar .nav-link:hover{
+    color: red;
+}
+
+/* ........................... */
+
+.sub-btn:hover{
+    background-color: #da262e;
+}
+
+/* ........................... */
+
+.img-collection .imgr{
+    overflow: hidden;
+}
+
+.imgr img{
+    transition: all 1s ease-in-out;
+}
+.imgr:hover img{
+    transform: scale(1,1);
+}
+
+/* ............................ */
+
+footer{
+    width: 100%;
+    
+}
+
+
+footer .social-icon li{
+    list-style: none;
+    
+}
+footer .social-icon li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+
+footer .menu  li{
+    list-style: none;
+    color: gray;
+   
+}
+
+footer .menu li a{
+    color: gray;
+    text-decoration: none;
+}
+
+
+/* ......................................... */
+
+
+
+@media screen and (max-width: 992px){
+    #form1{
+        flex-direction: column;
+    }
+}
